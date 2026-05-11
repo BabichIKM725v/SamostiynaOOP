@@ -36,6 +36,4 @@ int main() {
 
     Student student1("Pavlo", 17, 67);
     student1.show();
-
-    return 0;
 }
