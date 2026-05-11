@@ -16,7 +16,7 @@ class Student {
 
 public:
 
-    Student(string Name, int Age, double average_AP) : Name(Name), Age(Age), average(average) {}
+    Student(string Name, int Age, double average) : Name(Name), Age(Age), average(average) {}
 
     string get_Name() { return Name; }
     void set_Name(string value) { Name = value; }
